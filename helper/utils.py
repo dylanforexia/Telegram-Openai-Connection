@@ -74,23 +74,7 @@ def generate_response(message: str) -> str:
     elif message == '/help':
         return 'You can ask almost anything here, but do not belive whatever this bot says. :-)'
     elif message == '/start':
-        return 'Decentral-AI es una chatbot impulsada por IA que ayuda a las empresas a optimizar su flujo de trabajo y colaborar de forma más eficaz. Está impulsado por una automatización inteligente y un procesamiento de lenguaje natural eficiente, lo que lo hace ideal para empresas como abogados y servicios legales, escritores y creadores de contenido, profesionales de TI y más.
-
-Las principales características de Decentral-AI son:
-
-• Conversaciones automatizadas: La chatbot puede tomar el control de las tareas más mundanas de una conversación, permitiendo que las empresas inviertan más tiempo en las actividades más importantes para ellas.
-
-• Procesamiento de lenguaje natural: Decentral-AI entiende lo que los usuarios están diciendo y puede responder de acuerdo, lo que facilita para que los clientes obtengan rápida y correctamente las respuestas que necesitan. 
-
-• Automatización de tareas: Con Decentral-AI, las empresas pueden automatizar tareas complejas como la creación de documentos, la entrada de datos y más, lo que les permite centrarse en construir su negocio en lugar de perder tiempo en las operaciones cotidianas tediosas.
-
-• Analíticas e insights: La chatbot impulsada por IA proporciona a las empresas potentes insights y analíticas que se pueden usar para comprender mejor su base de clientes y dirigirse al público adecuado con un mensaje personalizado. 
-
-• Plataforma escalable: Decentral-AI está diseñado para escalar con las empresas, ofreciendo la flexibilidad y la capacidad para crecer junto con los cambiantes requisitos de la organización.
-
-Con Decentral-AI, las empresas pueden funcionar de forma más eficiente, mejor atender a sus clientes y mejorar la colaboración entre los miembros del equipo, lo que resulta en una mayor productividad y rentabilidad general.
-
-Recuerde que esta es sólo una demostración creada por Blockchain Costa Rica para el Ecosistema de la Cadena de Bloques DecentralChain y si desea tener su propia AI personalizada y con marca propia para su negocio, puede contactar https://t.me/dylanforexia para obtener más información sobre cómo obtener su propia AI empresarial y incluso acceder a nuestra API Decentral-AI.'
+        return 'Decentral-AI es una chatbot impulsada por IA que ayuda a las empresas a optimizar su flujo de trabajo y colaborar de forma más eficaz. Está impulsado por una automatización inteligente y un procesamiento de lenguaje natural eficiente, lo que lo hace ideal para empresas como abogados y servicios legales, escritores y creadores de contenido, profesionales de TI y más. Las principales características de Decentral-AI son: • Conversaciones automatizadas: La chatbot puede tomar el control de las tareas más mundanas de una conversación, permitiendo que las empresas inviertan más tiempo en las actividades más importantes para ellas. • Procesamiento de lenguaje natural: Decentral-AI entiende lo que los usuarios están diciendo y puede responder de acuerdo, lo que facilita para que los clientes obtengan rápida y correctamente las respuestas que necesitan. • Automatización de tareas: Con Decentral-AI, las empresas pueden automatizar tareas complejas como la creación de documentos, la entrada de datos y más, lo que les permite centrarse en construir su negocio en lugar de perder tiempo en las operaciones cotidianas tediosas. • Analíticas e insights: La chatbot impulsada por IA proporciona a las empresas potentes insights y analíticas que se pueden usar para comprender mejor su base de clientes y dirigirse al público adecuado con un mensaje personalizado.  • Plataforma escalable: Decentral-AI está diseñado para escalar con las empresas, ofreciendo la flexibilidad y la capacidad para crecer junto con los cambiantes requisitos de la organización. Con Decentral-AI, las empresas pueden funcionar de forma más eficiente, mejor atender a sus clientes y mejorar la colaboración entre los miembros del equipo, lo que resulta en una mayor productividad y rentabilidad general. Recuerde que esta es sólo una demostración creada por Blockchain Costa Rica para el Ecosistema de la Cadena de Bloques DecentralChain y si desea tener su propia AI personalizada y con marca propia para su negocio, puede contactar https://t.me/dylanforexia para obtener más información sobre cómo obtener su propia AI empresarial y incluso acceder a nuestra API Decentral-AI.'
     else:
         result = text_complition(message)
         if result['status'] == 1:
